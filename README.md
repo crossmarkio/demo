@@ -1,2 +1,2 @@
-# grant-demo
+# crossmark demo
 This is a repository for our XRPL Wave 4 Grants Application
