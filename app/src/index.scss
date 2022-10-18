@@ -1,0 +1,61 @@
+body,
+html {
+  margin: 0;
+  cursor: none;
+}
+
+.inner {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  color: black;
+}
+
+.light {
+  //===== Colors =====//
+  --theme-color: #ffffffff;
+  --opaque-color: rgba(255, 255, 255, 0.6);
+  --border-color: rgb(14, 7, 7);
+  --fill-color: rgb(207, 207, 207);
+  --font-color: rgb(2, 2, 2);
+}
+
+.moon {
+  //===== Colors =====//
+  --theme-color: rgb(34, 41, 61);
+  --font-color: rgb(247, 247, 247);
+}
+
+.dark {
+  //===== Colors =====//
+  --theme-color: #0a0a0aff;
+  --opaque-color: rgba(10, 10, 10, 0.6);
+  --border-color: rgb(255, 255, 255);
+  --fill-color: rgb(65, 65, 65);
+  --font-color: rgb(247, 247, 247);
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url("./assets/fonts/AvenirNext/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "AvenirNextDemi";
+  src: url("./assets/fonts/AvenirNext/AvenirNextLTPro-DemiCn.otf");
+}
+
+@font-face {
+  font-family: "AvenirNextBold";
+  src: url("./assets/fonts/AvenirNext/AvenirNextLTPro-Bold.otf");
+}
+
+@font-face {
+  font-family: "AvenirNextReg";
+  src: url("./assets/fonts/AvenirNext/AvenirNextLTPro-It.otf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}

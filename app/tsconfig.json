@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Base Template",
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target":"ES6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowUnreachableCode": true,
+    "allowUnusedLabels" : false,
+    "strict": true,
+    "alwaysStrict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny":false,
+    "noImplicitOverride":true,
+    "noImplicitReturns":false,
+    "noPropertyAccessFromIndexSignature":true,
+    "noUncheckedIndexedAccess":false,
+    "noUnusedLocals":false,
+    "noUnusedParameters":false,
+    "strictBindCallApply":false,
+    "strictFunctionTypes":true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src"
+, "stories"  ],
+  "types": [
+    "interface"
+  ]
+}

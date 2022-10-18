@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130.22mm" height="130.22mm" version="1.1" viewBox="0 0 130.22237 130.22237" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="a">
+<stop stop-color="#daf8dd" stop-opacity=".90487" offset="0"/>
+<stop stop-color="#7fe589" stop-opacity=".99216" offset=".26759"/>
+<stop stop-color="#a2e0a8" stop-opacity=".088496" offset="1"/>
+</linearGradient>
+<linearGradient id="b">
+<stop stop-color="#bef8df" offset="0"/>
+<stop stop-color="#42eba1" offset=".37256"/>
+<stop stop-color="#2b9667" offset="1"/>
+</linearGradient>
+<radialGradient id="n" cx="338.76" cy="201.2" r="23.516" gradientTransform="matrix(1.1838 -1.2896 1.1315 1.0387 -314.75 414.71)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<radialGradient id="h" cx="316.11" cy="211.53" r="22.2" gradientTransform="matrix(-1.3558 -1.4669 1.0831 -1.0011 498.5 864.68)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<radialGradient id="m" cx="338.76" cy="201.2" r="23.516" gradientTransform="matrix(1.1838 -1.2896 1.1315 1.0387 -210.38 413.45)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<radialGradient id="g" cx="316.11" cy="211.53" r="22.2" gradientTransform="matrix(-1.3558 -1.4669 1.0831 -1.0011 602.88 863.43)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<radialGradient id="l" cx="338.76" cy="201.2" r="23.516" gradientTransform="matrix(1.1838 -1.2896 1.1315 1.0387 -100.64 417.07)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<radialGradient id="f" cx="316.11" cy="211.53" r="22.2" gradientTransform="matrix(-1.3558 -1.4669 1.0831 -1.0011 712.61 867.04)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<filter id="v" x="-.022204" y="-.022226" width="1.0443" height="1.0444" color-interpolation-filters="sRGB">
+<feColorMatrix result="fbSourceGraphic" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "/>
+<feColorMatrix result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feColorMatrix in="fbSourceGraphic" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "/>
+</filter>
+<radialGradient id="k" cx="338.76" cy="201.2" r="23.516" gradientTransform="matrix(1.1838 -1.2896 1.1315 1.0387 -94.132 511.77)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<radialGradient id="e" cx="316.11" cy="211.53" r="22.2" gradientTransform="matrix(-1.3558 -1.4669 1.0831 -1.0011 719.12 961.75)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<filter id="s" x="-.10646" y="-.13209" width="1.2129" height="1.2642" color-interpolation-filters="sRGB">
+<feGaussianBlur in="SourceAlpha" result="result91" stdDeviation="1"/>
+<feComposite in="SourceGraphic" in2="result91" operator="in" result="fbSourceGraphic"/>
+<feGaussianBlur in="fbSourceGraphic" result="result1" stdDeviation="1"/>
+<feTurbulence baseFrequency="0.074 0.084" numOctaves="7" result="result0" type="fractalNoise"/>
+<feDisplacementMap in="result1" in2="result0" result="result2" scale="80" yChannelSelector="G"/>
+<feColorMatrix result="result3" type="saturate" values="1"/>
+<feGaussianBlur in="fbSourceGraphic" result="result4" stdDeviation="1"/>
+<feComposite in="result4" in2="result3" operator="atop" result="fbSourceGraphic"/>
+<feGaussianBlur in="fbSourceGraphic" result="result0" stdDeviation="1"/>
+<feTurbulence baseFrequency="0.062" numOctaves="8" result="result1" seed="488" type="fractalNoise"/>
+<feComposite in="result0" in2="result1" operator="out" result="result2"/>
+<feSpecularLighting lighting-color="#f4c828" in="result2" result="result4" specularConstant="2" specularExponent="40" surfaceScale="2">
+<feDistantLight azimuth="225" elevation="62"/>
+</feSpecularLighting>
+<feComposite in="result4" in2="result2" operator="atop" result="result92"/>
+<feBlend in2="result92" mode="multiply" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feComposite in="fbSourceGraphic" in2="fbSourceGraphic" k1="5.35928" k2="5.1497" operator="arithmetic" result="composite1"/>
+<feColorMatrix in="composite1" result="colormatrix1" type="saturate" values="1"/>
+<feFlood flood-color="rgb(180,242,230)" result="flood1"/>
+<feBlend in="flood1" in2="colormatrix1" mode="multiply" result="blend1"/>
+<feBlend in2="blend1" mode="screen" result="blend2"/>
+<feColorMatrix in="blend2" result="colormatrix2" type="saturate" values="1"/>
+<feComposite in="colormatrix2" in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feComposite in="fbSourceGraphic" in2="fbSourceGraphic" k1="5.35928" k2="5.1497" operator="arithmetic" result="composite1"/>
+<feColorMatrix in="composite1" result="colormatrix1" type="saturate" values="1"/>
+<feFlood flood-color="rgb(189,234,225)" result="flood1"/>
+<feBlend in="flood1" in2="colormatrix1" mode="multiply" result="blend1"/>
+<feBlend in2="blend1" mode="screen" result="blend2"/>
+<feColorMatrix in="blend2" result="colormatrix2" type="saturate" values="1"/>
+<feComposite in="colormatrix2" in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feComposite in="fbSourceGraphic" in2="fbSourceGraphic" k1="5.35928" k2="5.1497" operator="arithmetic" result="composite1"/>
+<feColorMatrix in="composite1" result="colormatrix1" type="saturate" values="1"/>
+<feFlood flood-color="rgb(181,201,200)" result="flood1"/>
+<feBlend in="flood1" in2="colormatrix1" mode="multiply" result="blend1"/>
+<feBlend in2="blend1" mode="screen" result="blend2"/>
+<feColorMatrix in="blend2" result="colormatrix2" type="saturate" values="1"/>
+<feComposite in="colormatrix2" in2="fbSourceGraphic" operator="in" result="composite2"/>
+</filter>
+<filter id="r" x="-.10646" y="-.13209" width="1.2129" height="1.2642" color-interpolation-filters="sRGB">
+<feGaussianBlur in="SourceAlpha" result="result91" stdDeviation="1"/>
+<feComposite in="SourceGraphic" in2="result91" operator="in" result="fbSourceGraphic"/>
+<feGaussianBlur in="fbSourceGraphic" result="result1" stdDeviation="1"/>
+<feTurbulence baseFrequency="0.074 0.084" numOctaves="7" result="result0" type="fractalNoise"/>
+<feDisplacementMap in="result1" in2="result0" result="result2" scale="80" yChannelSelector="G"/>
+<feColorMatrix result="result3" type="saturate" values="1"/>
+<feGaussianBlur in="fbSourceGraphic" result="result4" stdDeviation="1"/>
+<feComposite in="result4" in2="result3" operator="atop" result="fbSourceGraphic"/>
+<feGaussianBlur in="fbSourceGraphic" result="result0" stdDeviation="1"/>
+<feTurbulence baseFrequency="0.062" numOctaves="8" result="result1" seed="488" type="fractalNoise"/>
+<feComposite in="result0" in2="result1" operator="out" result="result2"/>
+<feSpecularLighting lighting-color="#f4c828" in="result2" result="result4" specularConstant="2" specularExponent="40" surfaceScale="2">
+<feDistantLight azimuth="225" elevation="62"/>
+</feSpecularLighting>
+<feComposite in="result4" in2="result2" operator="atop" result="result92"/>
+<feBlend in2="result92" mode="multiply" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feComposite in="fbSourceGraphic" in2="fbSourceGraphic" k1="5.35928" k2="5.1497" operator="arithmetic" result="composite1"/>
+<feColorMatrix in="composite1" result="colormatrix1" type="saturate" values="1"/>
+<feFlood flood-color="rgb(180,242,230)" result="flood1"/>
+<feBlend in="flood1" in2="colormatrix1" mode="multiply" result="blend1"/>
+<feBlend in2="blend1" mode="screen" result="blend2"/>
+<feColorMatrix in="blend2" result="colormatrix2" type="saturate" values="1"/>
+<feComposite in="colormatrix2" in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feComposite in="fbSourceGraphic" in2="fbSourceGraphic" k1="5.35928" k2="5.1497" operator="arithmetic" result="composite1"/>
+<feColorMatrix in="composite1" result="colormatrix1" type="saturate" values="1"/>
+<feFlood flood-color="rgb(189,234,225)" result="flood1"/>
+<feBlend in="flood1" in2="colormatrix1" mode="multiply" result="blend1"/>
+<feBlend in2="blend1" mode="screen" result="blend2"/>
+<feColorMatrix in="blend2" result="colormatrix2" type="saturate" values="1"/>
+<feComposite in="colormatrix2" in2="fbSourceGraphic" operator="in" result="composite2"/>
+</filter>
+<radialGradient id="j" cx="338.76" cy="201.2" r="23.516" gradientTransform="matrix(1.1838 -1.2896 1.1315 1.0387 -109.45 630.39)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<filter id="u" x="-.022204" y="-.022226" width="1.0443" height="1.0444" color-interpolation-filters="sRGB">
+<feColorMatrix result="fbSourceGraphic" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphic" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feColorMatrix in="fbSourceGraphic" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "/>
+</filter>
+<radialGradient id="d" cx="316.11" cy="211.53" r="22.2" gradientTransform="matrix(-1.3558 -1.4669 1.0831 -1.0011 703.81 1080.4)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<filter id="p" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+<feTurbulence baseFrequency="0.143" numOctaves="5" type="fractalNoise"/>
+<feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3"/>
+<feMorphology operator="dilate" radius="2.7" result="result3"/>
+<feTurbulence baseFrequency="0.121" numOctaves="2" result="result91"/>
+<feDisplacementMap in="result3" in2="result91" result="result4" scale="18.5" xChannelSelector="R"/>
+<feComposite in="result4" in2="SourceGraphic" operator="atop"/>
+</filter>
+<filter id="o" x="-.015428" y="-.022127" width="1.0309" height="1.0443" color-interpolation-filters="sRGB">
+<feTurbulence baseFrequency="0.143" numOctaves="5" type="fractalNoise"/>
+<feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3"/>
+<feMorphology operator="dilate" radius="2.7" result="result3"/>
+<feTurbulence baseFrequency="0.121" numOctaves="2" result="result91"/>
+<feDisplacementMap in="result3" in2="result91" result="result4" scale="18.5" xChannelSelector="R"/>
+<feComposite in="result4" in2="SourceGraphic" operator="atop" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feTurbulence baseFrequency="0.002 0.107"/>
+<feColorMatrix result="result91" values="2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0.5"/>
+<feDisplacementMap in="fbSourceGraphic" in2="result91" result="fbSourceGraphic" scale="14.3" xChannelSelector="R"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feGaussianBlur in="fbSourceGraphic" result="result0" stdDeviation="0.5"/>
+<feTurbulence baseFrequency="0.2" numOctaves="10" result="result1" seed="300" type="fractalNoise"/>
+<feGaussianBlur result="result8" stdDeviation="0.5"/>
+<feDisplacementMap in="result0" in2="result8" result="result7" scale="5" xChannelSelector="R"/>
+<feComposite in="result7" in2="result1" operator="in" result="result2"/>
+<feComposite in="result0" in2="result2" k3="3" operator="arithmetic" result="result92"/>
+<feBlend in2="result2" mode="multiply" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -1.8 -0.5 0 5.7 -3.5 "/>
+<feGaussianBlur in="fbSourceGraphicAlpha" result="result0" stdDeviation="0.5"/>
+<feSpecularLighting result="result6" specularExponent="3" surfaceScale="5">
+<feDistantLight azimuth="225" elevation="10"/>
+</feSpecularLighting>
+<feComposite in="result6" in2="fbSourceGraphicAlpha" operator="in" result="result2"/>
+<feComposite in="fbSourceGraphic" in2="result2" k2="1" k3="0.7" operator="arithmetic" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feGaussianBlur in="fbSourceGraphic" result="result0" stdDeviation="3"/>
+<feTurbulence baseFrequency="0.05" numOctaves="5" result="result1" seed="200"/>
+<feComposite in="result0" in2="result1" operator="in" result="result2"/>
+<feSpecularLighting lighting-color="#ffffff" in="result2" result="result4" specularConstant="8" specularExponent="3" surfaceScale="4">
+<feDistantLight azimuth="225" elevation="62"/>
+</feSpecularLighting>
+<feComposite in="result4" in2="result2" k1="1.8" k2="-0.4" k3="0.8" operator="arithmetic" result="result91"/>
+<feBlend in2="result91" mode="screen" result="fbSourceGraphic"/>
+<feComposite in="result1" in2="fbSourceGraphic" operator="in" result="result2"/>
+<feComposite in="fbSourceGraphic" in2="result2" k2="2" k3="5" operator="arithmetic" result="fbSourceGraphic"/>
+<feTurbulence baseFrequency="0.04" numOctaves="5" result="result1" seed="35" type="fractalNoise"/>
+<feComposite in="fbSourceGraphic" in2="result1" k1="0.9" k2="0.3" k4="-0.1" operator="arithmetic" result="result2"/>
+<feSpecularLighting in="result2" result="result4" specularExponent="30" surfaceScale="3">
+<feDistantLight azimuth="225" elevation="62"/>
+</feSpecularLighting>
+<feComposite in="result4" in2="result2" operator="atop" result="result92"/>
+<feBlend in2="result92" mode="screen"/>
+</filter>
+<filter id="q" x="-.40935" y="-.50793" width="1.8187" height="2.0159" color-interpolation-filters="sRGB">
+<feGaussianBlur in="SourceAlpha" result="result91" stdDeviation="12.38133"/>
+<feComposite in="SourceGraphic" in2="result91" operator="in" result="fbSourceGraphic"/>
+<feGaussianBlur in="fbSourceGraphic" result="result1" stdDeviation="1"/>
+<feTurbulence baseFrequency="0.074 0.084" numOctaves="7" result="result0" type="fractalNoise"/>
+<feDisplacementMap in="result1" in2="result0" result="result2" scale="80" yChannelSelector="G"/>
+<feColorMatrix result="result3" type="saturate" values="1"/>
+<feGaussianBlur in="fbSourceGraphic" result="result4" stdDeviation="1"/>
+<feComposite in="result4" in2="result3" operator="atop" result="fbSourceGraphic"/>
+<feGaussianBlur in="fbSourceGraphic" result="result0" stdDeviation="1"/>
+<feTurbulence baseFrequency="0.062" numOctaves="8" result="result1" seed="488" type="fractalNoise"/>
+<feComposite in="result0" in2="result1" operator="out" result="result2"/>
+<feSpecularLighting lighting-color="#f4c828" in="result2" result="result4" specularConstant="2" specularExponent="40" surfaceScale="2">
+<feDistantLight azimuth="225" elevation="62"/>
+</feSpecularLighting>
+<feComposite in="result4" in2="result2" operator="atop" result="result92"/>
+<feBlend in2="result92" mode="multiply" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feComposite in="fbSourceGraphic" in2="fbSourceGraphic" k1="5.35928" k2="5.1497" operator="arithmetic" result="composite1"/>
+<feColorMatrix in="composite1" result="colormatrix1" type="saturate" values="1"/>
+<feFlood flood-color="rgb(180,242,230)" result="flood1"/>
+<feBlend in="flood1" in2="colormatrix1" mode="multiply" result="blend1"/>
+<feBlend in2="blend1" mode="screen" result="blend2"/>
+<feColorMatrix in="blend2" result="colormatrix2" type="saturate" values="1"/>
+<feComposite in="colormatrix2" in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feComposite in="fbSourceGraphic" in2="fbSourceGraphic" k1="5.35928" k2="5.1497" operator="arithmetic" result="composite1"/>
+<feColorMatrix in="composite1" result="colormatrix1" type="saturate" values="1"/>
+<feFlood flood-color="rgb(189,234,225)" result="flood1"/>
+<feBlend in="flood1" in2="colormatrix1" mode="multiply" result="blend1"/>
+<feBlend in2="blend1" mode="screen" result="blend2"/>
+<feColorMatrix in="blend2" result="colormatrix2" type="saturate" values="1"/>
+<feComposite in="colormatrix2" in2="fbSourceGraphic" operator="in" result="composite2"/>
+</filter>
+<radialGradient id="i" cx="338.76" cy="201.2" r="23.516" gradientTransform="matrix(1.1838 -1.2896 1.1315 1.0387 -725.06 761.27)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<filter id="t" x="-.022204" y="-.022226" width="1.0443" height="1.0444" color-interpolation-filters="sRGB">
+<feColorMatrix result="fbSourceGraphic" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphic" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feColorMatrix in="fbSourceGraphic" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 "/>
+</filter>
+<radialGradient id="c" cx="316.11" cy="211.53" r="22.2" gradientTransform="matrix(-1.3558 -1.4669 1.0831 -1.0011 88.194 1211.2)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<clipPath id="w">
+<rect x="-162.01" y="471.69" width="130.22" height="130.22" ry=".81172" fill="none" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="4.4221"/>
+</clipPath>
+</defs>
+<g transform="translate(162.01 -471.69)">
+<rect x="478.97" y="240.76" width="112.05" height="94.554" ry=".49863" fill="#dadada" fill-rule="evenodd"/>
+<rect x="270.95" y="150.02" width="201.85" height="130.93" ry=".38327" fill="#3d3d3d" fill-opacity=".93584" fill-rule="evenodd" stroke="#3f3f3f" stroke-linecap="square" stroke-linejoin="round" stroke-width="5" style="paint-order:fill markers stroke"/>
+<path d="m328.71 280.79c-12.609-2.3032-18.902-8.8817-18.017-19.612 0.42289-4.4572 2.0462-8.2622 4.6249-10.841 0.87317-0.87309 3.0312-2.4964 3.1546-2.3729-0.50131 2.446-0.67319 5.4408-0.20293 7.5685 0.55991 2.5004 1.6648 4.9966 3.1322 7.0762 1.4241 2.0183 5.1314 5.4784 8.1149 7.5737 7.3613 5.0125 16.883 8.6249 22.442 10.765-8.132 0-8.7876-0.16196-23.249-0.15836zm25.635-0.078c-2.8231-14.986-10.4-23.57-28.004-28.199 0-0.26682 0.99343-2.6993 1.5939-3.894 2.7213-5.4148 7.6437-9.6824 13.357-11.581 4.9783-1.6539 10.559-1.4702 15.63 0.51442 5.3168 2.0808 9.5077 5.9668 12.045 11.168 3.204 6.5691 3.2152 13.816 0.0313 20.174-1.1822 2.3606-2.3446 3.9906-4.2303 5.9325-2.0283 2.0887-3.9138 3.4602-6.413 4.6646-1.2158 0.58591-3.5374 1.4566-3.8838 1.4566-0.0692 0-0.12587-0.10639-0.12587-0.23641z" fill="#84fe90" fill-opacity=".93726" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-opacity=".34292" stroke-width="5" style="paint-order:normal"/>
+<path d="m441.25 283.91c-2.8231-14.986-10.4-23.57-28.004-28.199 0-0.26682 0.99343-2.6993 1.5939-3.894 2.7213-5.4148 7.6437-9.6824 13.357-11.581 4.9783-1.6539 10.559-1.4702 15.63 0.51442 5.3168 2.0808 9.5077 5.9668 12.045 11.168 3.204 6.5691 3.2152 13.816 0.0313 20.174-1.1822 2.3606-2.3446 3.9906-4.2303 5.9325-2.0283 2.0887-3.9138 3.4602-6.413 4.6646-1.2158 0.58591-3.5374 1.4566-3.8838 1.4566-0.0692 0-0.12587-0.10639-0.12587-0.23641z" fill="#42eba1" fill-opacity=".93584" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="5" style="paint-order:normal"/>
+<path d="m417.93 284.04c-12.609-2.3032-18.902-8.8817-18.017-19.612 0.42289-4.4572 2.0462-8.2622 4.6249-10.841 0.87317-0.87309 3.0312-2.4964 3.1546-2.3729-0.50131 2.446-0.67319 5.4408-0.20293 7.5685 0.55991 2.5004 1.6648 4.9966 3.1322 7.0762 1.4241 2.0183 5.1314 5.4784 8.1149 7.5737 7.3613 5.0125 16.883 8.6249 22.442 10.765-8.132 0-8.7876-0.16196-23.249-0.15836z" fill="#84fe90" fill-opacity=".93726" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="5" style="paint-order:normal"/>
+<text x="283.2066" y="217.04199" fill="#fdfdfd" font-family="'Apple SD Gothic Neo'" font-size="10.583px" font-weight="800" stroke-width=".26458" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="283.2066" y="217.04199" fill="#fdfdfd" font-family="'Apple SD Gothic Neo'" font-size="10.583px" font-weight="800" stroke-width=".26458" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MINT</tspan></text>
+<text x="308.84164" y="216.96791" fill="#fdfdfd" font-family="'Apple SD Gothic Neo'" font-size="10.583px" stroke-width=".26458" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="308.84164" y="216.96791" fill="#fdfdfd" font-family="'Apple SD Gothic Neo'" font-size="10.583px" stroke-width=".26458" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLOUD</tspan></text>
+<path d="m324.24 203.41c-2.8231-14.986-10.4-23.57-28.004-28.199 0-0.26682 0.99343-2.6993 1.5939-3.894 2.7213-5.4148 7.6437-9.6824 13.357-11.581 4.9783-1.6539 10.559-1.4702 15.63 0.51442 5.3168 2.0808 9.5077 5.9668 12.045 11.168 3.204 6.5691 3.2152 13.816 0.0313 20.174-1.1822 2.3606-2.3446 3.9906-4.2303 5.9325-2.0283 2.0887-3.9138 3.4602-6.413 4.6646-1.2158 0.58591-3.5374 1.4566-3.8838 1.4566-0.0692 0-0.12587-0.10639-0.12587-0.23641z" fill="url(#n)" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2" style="paint-order:normal"/>
+<path d="m300.33 203.46c-12.915-2.3592-19.361-9.0977-18.455-20.089 0.43317-4.5656 2.0959-8.463 4.7374-11.104 0.8944-0.89432 3.1049-2.5571 3.2313-2.4306-0.5135 2.5055-0.68956 5.573-0.20786 7.7525 0.57352 2.5612 1.7053 5.1181 3.2084 7.2483 1.4587 2.0673 5.2562 5.6116 8.3122 7.7579 7.5403 5.1343 17.294 8.8346 22.988 11.027-8.3298 0-9.0013-0.16589-23.814-0.16221z" fill="url(#h)" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2.0486" style="paint-order:normal"/>
+<path d="m297.44 174.36c-0.15373-0.0857 1.6507-5.616 8.5446-10.839 2.5636-1.9401 5.9698-3.6465 9.9847-4.1183 3.1263-0.36238 6.5147 0.0467 9.781 1.3371 2.9793 1.1769 5.7949 3.0357 8.1853 5.4783l0.0414 0.0423c2.3725 2.4336 4.1582 5.2742 5.2669 8.2626 1.2243 3.2995 1.5638 6.7032 1.1382 9.8288-0.55355 4.018-2.3296 7.4023-4.3225 9.9394-5.3633 6.8202-10.939 8.542-11.022 8.3865-0.0833-0.15543 5.3296-2.2117 10.311-8.9298 1.848-2.4897 3.4794-5.7509 3.9403-9.5382 0.36365-2.9472 6e-3 -6.1574-1.1672-9.2668-1.0648-2.8213-2.7707-5.5118-5.0241-7.8256-0.0131-0.0134-0.0262-0.0268-0.0393-0.0403-2.2727-2.3201-4.9389-4.0955-7.751-5.2247-3.0774-1.2356-6.2717-1.6589-9.2179-1.355-3.7819 0.38361-7.0619 1.9476-9.5752 3.7434-6.7843 4.8424-8.9205 10.205-9.0743 10.119z" fill="#2caf76"/>
+<path d="m297.59 174.51c0.035-0.35655 2.5201-0.58521 6.423 0.28917 3.9158 0.8773 9.1788 2.9761 13.63 7.3638 0.71 0.69993 1.3695 1.4298 1.9781 2.1851 3.4763 4.3486 5.0634 8.9458 5.6644 12.369 0.59506 3.3893 0.29343 5.4806-0.0353 5.4996-0.32876 0.019-0.63872-1.9964-1.6338-5.0902-1.0071-3.1312-2.7519-7.2317-5.9932-11.156-0.55506-0.67768-1.153-1.3358-1.7947-1.9722-4.0027-3.9698-8.7433-6.1587-12.322-7.4288-3.5715-1.2675-5.9506-1.7029-5.9156-2.0595z" fill="#f0f0f0" fill-opacity=".068584"/>
+<rect x="372.87" y="152.89" width="90.179" height="72.678" ry=".38327" fill="#fff" fill-rule="evenodd"/>
+<g transform="translate(-.30824)">
+<path d="m428.61 202.15c-2.8231-14.986-10.4-23.57-28.004-28.199 0-0.26682 0.99343-2.6993 1.5939-3.894 2.7213-5.4148 7.6437-9.6824 13.357-11.581 4.9783-1.6539 10.559-1.4702 15.63 0.51442 5.3168 2.0808 9.5077 5.9668 12.045 11.168 3.204 6.5691 3.2152 13.816 0.0313 20.174-1.1822 2.3606-2.3446 3.9906-4.2303 5.9325-2.0283 2.0887-3.9138 3.4602-6.413 4.6646-1.2158 0.58591-3.5374 1.4566-3.8838 1.4566-0.0692 0-0.12587-0.10639-0.12587-0.23641z" fill="url(#m)" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2" style="paint-order:normal"/>
+<path d="m404.7 202.2c-12.915-2.3592-19.361-9.0977-18.455-20.089 0.43317-4.5656 2.0959-8.463 4.7374-11.104 0.8944-0.89432 3.1049-2.5571 3.2313-2.4306-0.5135 2.5055-0.68956 5.573-0.20786 7.7525 0.57352 2.5612 1.7053 5.1181 3.2084 7.2483 1.4587 2.0673 5.2562 5.6116 8.3122 7.7579 7.5403 5.1343 17.294 8.8346 22.988 11.027-8.3298 0-9.0013-0.16589-23.814-0.16221z" fill="url(#g)" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2.0486" style="paint-order:normal"/>
+<path d="m401.81 173.1c-0.15373-0.0857 1.6507-5.616 8.5446-10.839 2.5636-1.9401 5.9698-3.6465 9.9847-4.1183 3.1263-0.36238 6.5147 0.0467 9.781 1.3371 2.9793 1.1769 5.7949 3.0357 8.1853 5.4783l0.0414 0.0423c2.3725 2.4336 4.1582 5.2742 5.2669 8.2626 1.2243 3.2995 1.5638 6.7032 1.1382 9.8288-0.55355 4.018-2.3296 7.4023-4.3225 9.9394-5.3633 6.8202-10.939 8.542-11.022 8.3865-0.0833-0.15543 5.3296-2.2117 10.311-8.9298 1.848-2.4897 3.4794-5.7509 3.9403-9.5382 0.36365-2.9472 6e-3 -6.1574-1.1672-9.2668-1.0648-2.8213-2.7707-5.5118-5.0241-7.8256-0.0131-0.0134-0.0262-0.0268-0.0393-0.0402-2.2727-2.3201-4.9389-4.0955-7.751-5.2247-3.0774-1.2356-6.2717-1.6589-9.2179-1.355-3.7819 0.38361-7.0619 1.9476-9.5752 3.7434-6.7843 4.8424-8.9205 10.205-9.0743 10.119z" fill="#2caf76"/>
+<path d="m401.96 173.25c0.035-0.35655 2.5201-0.58521 6.423 0.28917 3.9158 0.8773 9.1788 2.9761 13.63 7.3638 0.71 0.69993 1.3695 1.4298 1.9781 2.1851 3.4763 4.3486 5.0634 8.9458 5.6644 12.369 0.59506 3.3893 0.29342 5.4806-0.0353 5.4996-0.32875 0.019-0.63872-1.9964-1.6338-5.0902-1.0071-3.1312-2.7519-7.2317-5.9932-11.156-0.55505-0.67768-1.153-1.3358-1.7947-1.9722-4.0027-3.9698-8.7433-6.1587-12.322-7.4289-3.5715-1.2675-5.9507-1.7029-5.9157-2.0595z" fill="#f0f0f0" fill-opacity=".068584"/>
+</g>
+<g transform="matrix(.87652 0 0 .87652 50.37 24.397)" fill="#000000" font-family="'Avenir Next'" font-size="10.583px" stroke-width=".26458">
+<text x="383.05554" y="217.07458" font-weight="900" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="383.05554" y="217.07458" font-family="'Avenir Next'" font-size="10.583px" font-weight="900" stroke-width=".26458" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MINT</tspan></text>
+<text x="412.92398" y="217.07458" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="412.92398" y="217.07458" font-family="'Avenir Next'" font-size="10.583px" stroke-width=".26458" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLOUD</tspan></text>
+</g>
+<rect x="482.91" y="156.51" width="90.179" height="72.678" ry=".38327" fill="#fff" fill-rule="evenodd"/>
+<path d="m538.35 205.77c-2.8231-14.986-10.4-23.57-28.004-28.199 0-0.26682 0.99343-2.6993 1.5939-3.894 2.7213-5.4148 7.6437-9.6824 13.357-11.581 4.9783-1.6539 10.559-1.4702 15.63 0.51442 5.3168 2.0808 9.5077 5.9668 12.045 11.168 3.204 6.5691 3.2152 13.816 0.0313 20.174-1.1822 2.3606-2.3446 3.9906-4.2303 5.9325-2.0283 2.0887-3.9138 3.4602-6.413 4.6646-1.2158 0.58591-3.5374 1.4566-3.8838 1.4566-0.0692 0-0.12587-0.10639-0.12587-0.23641z" fill="url(#l)" fill-rule="evenodd" filter="url(#v)" stroke="#000" stroke-linejoin="round" stroke-width="2" style="paint-order:normal"/>
+<path d="m514.44 205.82c-12.915-2.3592-19.361-9.0977-18.455-20.089 0.43317-4.5656 2.0959-8.463 4.7374-11.104 0.8944-0.89432 3.1049-2.5571 3.2313-2.4306-0.5135 2.5055-0.68956 5.573-0.20786 7.7525 0.57352 2.5612 1.7053 5.1181 3.2084 7.2483 1.4587 2.0673 5.2562 5.6116 8.3122 7.7579 7.5403 5.1343 17.294 8.8346 22.988 11.027-8.3298 0-9.0013-0.16589-23.814-0.16221z" fill="url(#f)" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2.0486" style="paint-order:normal"/>
+<path d="m511.55 176.71c-0.15373-0.0857 1.6507-5.616 8.5446-10.839v-1e-5c2.5636-1.9401 5.9697-3.6465 9.9847-4.1183 3.1263-0.36238 6.5147 0.0467 9.781 1.3371 2.9793 1.1769 5.7949 3.0357 8.1853 5.4783 0.0138 0.0141 0.0276 0.0282 0.0413 0.0423 2.3725 2.4336 4.1582 5.2743 5.267 8.2627 1.2243 3.2995 1.5638 6.7032 1.1382 9.8288-0.55355 4.018-2.3296 7.4023-4.3225 9.9394-5.3633 6.8202-10.939 8.542-11.022 8.3865-0.0833-0.15542 5.3296-2.2117 10.311-8.9298 1.848-2.4897 3.4794-5.7509 3.9403-9.5382 0.36365-2.9472 6e-3 -6.1574-1.1672-9.2668-1.0648-2.8213-2.7707-5.5119-5.0241-7.8256-0.0131-0.0134-0.0262-0.0268-0.0393-0.0402-2.2727-2.3201-4.9389-4.0955-7.751-5.2247-3.0774-1.2356-6.2717-1.6589-9.2179-1.355-3.7819 0.38361-7.0619 1.9476-9.5752 3.7434-6.7843 4.8424-8.9205 10.205-9.0743 10.119z" fill="#2caf76"/>
+<path d="m511.7 176.87c0.035-0.35655 2.5201-0.58521 6.423 0.28917 3.9158 0.87729 9.1788 2.976 13.63 7.3638 0.70999 0.69993 1.3695 1.4298 1.9781 2.1851v1e-5c3.4763 4.3486 5.0634 8.9458 5.6644 12.369 0.59506 3.3893 0.29342 5.4806-0.0353 5.4996-0.32876 0.019-0.63872-1.9964-1.6338-5.0902-1.0071-3.1312-2.7519-7.2317-5.9932-11.156-0.55505-0.67768-1.153-1.3358-1.7947-1.9722-4.0027-3.9698-8.7433-6.1587-12.322-7.4289-3.5715-1.2675-5.9506-1.7029-5.9156-2.0595z" fill="#f0f0f0" fill-opacity=".068584"/>
+<text x="496.1716" y="218.28278" fill="#000000" font-family="'Avenir Next'" font-size="9.2765px" font-weight="900" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="496.1716" y="218.28278" font-family="'Avenir Next'" font-size="9.2765px" font-weight="900" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MINT</tspan></text>
+<text x="522.35187" y="218.28278" fill="#000000" font-family="'Avenir Next'" font-size="9.2765px" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="522.35187" y="218.28278" font-family="'Avenir Next'" font-size="9.2765px" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLOUD</tspan></text>
+<path d="m518.2 271.57c0.035-0.35655 2.5201-0.58521 6.423 0.28917 3.9158 0.87729 9.1788 2.976 13.63 7.3638 0.70999 0.69993 1.3695 1.4298 1.9781 2.1851v1e-5c3.4763 4.3486 5.0634 8.9458 5.6644 12.369 0.59506 3.3893 0.29342 5.4806-0.0353 5.4996-0.32876 0.019-0.63872-1.9964-1.6338-5.0902-1.0071-3.1312-2.7519-7.2317-5.9932-11.156-0.55505-0.67768-1.153-1.3358-1.7947-1.9722-4.0027-3.9698-8.7433-6.1587-12.322-7.4289-3.5715-1.2675-5.9506-1.7029-5.9156-2.0595z" fill="#f0f0f0" fill-opacity=".068584"/>
+<g>
+<rect x="488.93" y="250.97" width="90.179" height="72.678" ry=".38327" fill="#fff" fill-rule="evenodd" filter="url(#s)"/>
+<path d="m544.86 300.47c-2.8231-14.986-10.4-23.57-28.004-28.199 0-0.26682 0.99343-2.6993 1.5939-3.894 2.7213-5.4148 7.6437-9.6824 13.357-11.581 4.9783-1.6539 10.559-1.4702 15.63 0.51442 5.3168 2.0808 9.5077 5.9668 12.045 11.168 3.204 6.5691 3.2152 13.816 0.0313 20.174-1.1822 2.3606-2.3446 3.9906-4.2303 5.9325-2.0283 2.0887-3.9138 3.4602-6.413 4.6646-1.2158 0.58591-3.5374 1.4566-3.8838 1.4566-0.0692 0-0.12587-0.10639-0.12587-0.23641z" fill="url(#k)" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2" style="paint-order:normal"/>
+<path d="m520.95 300.52c-12.915-2.3592-19.361-9.0977-18.455-20.089 0.43317-4.5656 2.0959-8.463 4.7374-11.104 0.8944-0.89432 3.1049-2.5571 3.2313-2.4306-0.5135 2.5055-0.68956 5.573-0.20786 7.7525 0.57352 2.5612 1.7053 5.1181 3.2084 7.2483 1.4587 2.0673 5.2562 5.6116 8.3122 7.7579 7.5403 5.1343 17.294 8.8346 22.988 11.027-8.3298 0-9.0013-0.16589-23.814-0.16221z" fill="url(#e)" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2.0486" style="paint-order:normal"/>
+<text x="502.67807" y="312.98898" fill="#000000" font-family="'Avenir Next'" font-size="9.2765px" font-weight="900" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="502.67807" y="312.98898" font-family="'Avenir Next'" font-size="9.2765px" font-weight="900" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MINT</tspan></text>
+<text x="528.85834" y="312.98898" fill="#000000" font-family="'Avenir Next'" font-size="9.2765px" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="528.85834" y="312.98898" font-family="'Avenir Next'" font-size="9.2765px" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLOUD</tspan></text>
+</g>
+<rect x="473.62" y="369.59" width="90.179" height="72.678" ry=".38327" fill="#fff" fill-rule="evenodd" filter="url(#r)"/>
+<path d="m529.54 419.09c-2.8231-14.986-10.4-23.57-28.004-28.199 0-0.26682 0.99343-2.6993 1.5939-3.894 2.7213-5.4148 7.6437-9.6824 13.357-11.581 4.9783-1.6539 10.559-1.4702 15.63 0.51442 5.3168 2.0808 9.5077 5.9668 12.045 11.168 3.204 6.5691 3.2152 13.816 0.0313 20.174-1.1822 2.3606-2.3446 3.9906-4.2303 5.9325-2.0283 2.0887-3.9138 3.4602-6.413 4.6646-1.2158 0.58591-3.5374 1.4566-3.8838 1.4566-0.0692 0-0.12587-0.10639-0.12587-0.23641z" fill="url(#j)" fill-rule="evenodd" filter="url(#u)" stroke="#000" stroke-linejoin="round" stroke-width="2" style="paint-order:normal"/>
+<path d="m505.63 419.14c-12.915-2.3592-19.361-9.0977-18.455-20.089 0.43317-4.5656 2.0959-8.463 4.7374-11.104 0.8944-0.89432 3.1049-2.5571 3.2313-2.4306-0.5135 2.5055-0.68956 5.573-0.20786 7.7525 0.57352 2.5612 1.7053 5.1181 3.2084 7.2483 1.4587 2.0673 5.2562 5.6116 8.3122 7.7579 7.5403 5.1343 17.294 8.8346 22.988 11.027-8.3298 0-9.0013-0.16589-23.814-0.16221z" fill="url(#d)" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2.0486" style="paint-order:normal"/>
+<path d="m502.89 390.19c0.035-0.35655 2.5201-0.58521 6.423 0.28917 3.9158 0.87729 9.1788 2.976 13.63 7.3638 0.70999 0.69993 1.3695 1.4298 1.9781 2.1851v1e-5c3.4763 4.3486 5.0634 8.9458 5.6644 12.369 0.59506 3.3893 0.29342 5.4806-0.0353 5.4996-0.32876 0.019-0.63872-1.9964-1.6338-5.0902-1.0071-3.1312-2.7519-7.2317-5.9932-11.156-0.55505-0.67767-1.153-1.3358-1.7947-1.9722-4.0027-3.9698-8.7433-6.1587-12.322-7.4289-3.5715-1.2675-5.9506-1.7029-5.9156-2.0595z" fill="#f0f0f0" fill-opacity=".068584"/>
+<text x="487.36469" y="431.60684" fill="#000000" font-family="'Avenir Next'" font-size="9.2765px" font-weight="900" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="487.36469" y="431.60684" font-family="'Avenir Next'" font-size="9.2765px" font-weight="900" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MINT</tspan></text>
+<text x="513.54492" y="431.60684" fill="#000000" font-family="'Avenir Next'" font-size="9.2765px" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="513.54492" y="431.60684" font-family="'Avenir Next'" font-size="9.2765px" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLOUD</tspan></text>
+<rect x="241.12" y="604.76" width="700.04" height="488.08" ry=".38327" fill="#dadada" fill-rule="evenodd" filter="url(#p)"/>
+<rect x="212.44" y="1152.9" width="700.04" height="488.08" ry=".38327" fill="#dadada" fill-rule="evenodd" filter="url(#o)"/>
+<path d="m-112.72 521.07c0.035-0.35655 2.5201-0.58521 6.423 0.28917 3.9158 0.87729 9.1788 2.976 13.63 7.3638 0.70999 0.69993 1.3695 1.4298 1.9781 2.1851v1e-5c3.4763 4.3486 5.0634 8.9458 5.6644 12.369 0.59506 3.3893 0.29342 5.4806-0.03534 5.4996-0.32876 0.019-0.63872-1.9964-1.6338-5.0902-1.0071-3.1312-2.7519-7.2317-5.9932-11.156h-1e-6c-0.55505-0.67767-1.153-1.3358-1.7947-1.9722-4.0027-3.9698-8.7433-6.1587-12.322-7.4289-3.5715-1.2675-5.9506-1.7029-5.9156-2.0595z" fill="#f0f0f0" fill-opacity=".068584"/>
+<g clip-path="url(#w)">
+<rect x="-141.99" y="500.46" width="90.179" height="72.678" ry=".38327" fill="#fff" fill-rule="evenodd" filter="url(#q)" style="mix-blend-mode:normal"/>
+<path d="m-86.067 549.97c-2.8231-14.986-10.4-23.57-28.004-28.199 0-0.26682 0.99343-2.6993 1.5939-3.894 2.7213-5.4148 7.6437-9.6824 13.357-11.581 4.9783-1.6539 10.559-1.4702 15.63 0.51442 5.3168 2.0808 9.5077 5.9668 12.045 11.168 3.204 6.5691 3.2152 13.816 0.0313 20.174-1.1822 2.3606-2.3446 3.9906-4.2303 5.9325-2.0283 2.0887-3.9138 3.4602-6.413 4.6646-1.2158 0.58591-3.5374 1.4566-3.8838 1.4566-0.0692 0-0.12587-0.10639-0.12587-0.23641z" fill="url(#i)" fill-rule="evenodd" filter="url(#t)" stroke="#000" stroke-linejoin="round" stroke-width="2" style="paint-order:normal"/>
+<path d="m-109.98 550.02c-12.915-2.3592-19.361-9.0977-18.455-20.089 0.43317-4.5656 2.0959-8.463 4.7374-11.104 0.8944-0.89432 3.1049-2.5571 3.2313-2.4306-0.5135 2.5055-0.68956 5.573-0.20786 7.7525 0.57352 2.5612 1.7053 5.1181 3.2084 7.2483 1.4587 2.0673 5.2562 5.6116 8.3122 7.7579 7.5403 5.1343 17.294 8.8346 22.988 11.027-8.3298 0-9.0013-0.16589-23.814-0.16221z" fill="url(#c)" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2.0486" style="paint-order:normal"/>
+<text x="-128.24646" y="562.48242" fill="#000000" font-family="'Avenir Next'" font-size="9.2765px" font-weight="900" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-128.24646" y="562.48242" font-family="'Avenir Next'" font-size="9.2765px" font-weight="900" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MINT</tspan></text>
+<text x="-102.06623" y="562.48242" fill="#000000" font-family="'Avenir Next'" font-size="9.2765px" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-102.06623" y="562.48242" font-family="'Avenir Next'" font-size="9.2765px" stroke-width=".23191" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLOUD</tspan></text>
+</g>
+<rect x="-160.51" y="479.12" width="111.79" height="99.417" ry=".38327" fill="none" stroke-linecap="square" stroke-linejoin="round" stroke-width="2.088"/>
+</g>
+</svg>

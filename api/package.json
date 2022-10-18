@@ -1,0 +1,61 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "jest": "jest",
+    "jest:class": "jest class.test.ts",
+    "jest:obj": "jest obj.test.ts",
+    "c": "tsc",
+    "gen": "graphql-codegen --config codegen.yml",
+    "build": "npx tsc",
+    "start:oracle": "nodemon --exec ts-node src/index.ts",
+    "start:api": "nodemon --exec ts-node src/api.ts",
+    "start:dev": "nodemon --exec ts-node src/api_dev.ts",
+    "start": "yarn start:oracle & yarn start:api",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+  },
+  "scriptsComments": {
+    "c": "Compiles typescript",
+    "jest": "Runs test for code within /src with current tsconfig and types"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.5.0",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^17.0.32",
+    "@types/pako": "^1.0.3",
+    "@types/ws": "^8.5.3",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0"
+  },
+  "dependencies": {
+    "apollo-server-core": "^3.7.0",
+    "apollo-server-express": "^3.7.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.0",
+    "fs": "^0.0.1-security",
+    "graphql": "^16.5.0",
+    "graphql-import-node": "^0.0.5",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.3",
+    "nodemailer": "^6.7.5",
+    "path": "^0.12.7",
+    "typescript": "^4.6.4",
+    "ws": "^8.6.0",
+    "xumm-sdk": "^1.1.6"
+  }
+}

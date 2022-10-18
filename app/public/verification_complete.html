@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <style>
+
+      @font-face {
+        font-family: Monserrat;
+        src: url(/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+      }
+
+      @font-face {
+        font-family: AvenirNext;
+        src: url(/assets/fonts/AvenirNext/AvenirNextLTPro-Regular.otf);
+      }
+
+      body,
+      .root{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        font-family: Monserrat, sans-serif;
+      }
+
+      .root{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+      }
+
+      .title{
+        font-size: 10px;
+        margin-top: 5px;
+
+      }
+
+      .congrats{
+        margin: 20px;
+        text-align: center;
+        font-family: AvenirNext, sans-serif;
+      }
+
+      .command {
+        margin: 30px 0px;
+        margin-bottom: 60px;
+        text-align: center;
+        max-width: 150px;
+        font-family: AvenirNext, sans-serif;
+      }
+
+      .button {
+        width: 60%;
+        max-width: 200px;
+        padding: 5px;
+        color: white;
+        background-color: hsla(0, 0%, 14%, 0.603);
+        border-radius: 8px;
+        text-align: center;
+        z-index: 5;
+        font-family: AvenirNext, sans-serif;
+        font-size: 14px;
+      }
+
+      .button:hover{
+        cursor: pointer;
+      }
+
+      .top-left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 60%;
+        z-index: 0;
+      }
+
+      .bot-right{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: rotate(180deg);
+        height: 60%;
+        z-index: 0;
+      }
+
+    </style>
+    
+  </head>
+  <body>
+
+    <div class="root">
+        <img class="top-left" src="assets/svg/waves.svg" alt="">
+        <img class="bot-right" src="assets/svg/waves.svg" alt="">
+
+        <img src="assets/svg/envelope_open.svg" alt="" width="48px" height="48px">
+        <div class="title">CROSSMARK</div>
+        <div class="congrats">
+          <div>Congrats!</div> 
+          <div>Your email was verified!</div> 
+        </div>
+
+      <div class="command">You can now login to your account.</div>
+      <div id="button" class="button">login</div>
+  </div>
+
+    <script defer>
+      let button = document.getElementById("button")
+      console.log(button)
+
+      async function myFunction() {
+        console.log('clicked')
+        let response = await window.xrpl.open()
+        console.log(response)
+      }
+
+      button.addEventListener("click", myFunction);
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,486 @@
+.inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-family: AvenirNext, Montserrat, sans-serif;
+  font-size: 19px;
+  color: var(--font-color);
+
+  .background {
+    z-index: 1;
+
+    .absolute {
+      position: absolute;
+      z-index: 1;
+
+      &.top {
+        top: 0;
+      }
+
+      &.bottom {
+        bottom: 0;
+      }
+
+      &.tl {
+        top: -100px;
+        left: 0;
+        opacity: 0.5;
+      }
+
+      &.br {
+        bottom: -100px;
+        right: 0;
+        opacity: 0.5;
+        transform: rotate(180deg);
+      }
+
+      svg {
+        z-index: 1;
+      }
+    }
+  }
+
+  .foreground {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+      background-color: var(--theme-color);
+      border-radius: 32px;
+      border: solid var(--border-color) 1px;
+
+      position: relative;
+
+      width: 350px;
+      height: 550px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      font-family: AvenirNext, Montserrat;
+      font-size: 16px;
+
+      .back {
+        position: absolute;
+        top: 18px;
+        left: 20px;
+      }
+
+      .logo {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        .pageTitle {
+          margin-top: 8px;
+          font-size: 10px;
+          font-family: Montserrat, AvenirNext;
+        }
+      }
+
+      .title {
+        font-size: 14px;
+      }
+
+      .tick {
+        position: absolute;
+        right: 10px;
+      }
+
+      .container {
+        width: fit-content;
+        height: 100%;
+        position: relative;
+
+        max-width: 80%;
+
+        overflow: hidden;
+
+        box-sizing: border-box;
+        padding: 15px 6px;
+
+        border: solid 1px transparent;
+        border-radius: 10px;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        top: -15px;
+
+        .containerTitle {
+        }
+
+        .keynamelogo {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 10px 0px;
+          padding: 10px 0px;
+        }
+
+        .address {
+          font-size: 12px;
+          margin: 10px 0;
+          padding: 10px 10px;
+
+          border: solid 1px var(--border-color);
+          border-radius: 10px;
+        }
+
+        .description {
+          text-align: center;
+          font-size: 14px;
+          margin: 0px 10px;
+          margin-bottom: 20px;
+        }
+
+        .warningTitle {
+          font-size: 16px;
+        }
+
+        .warningDescription {
+          text-align: center;
+          font-size: 14px;
+          margin: 40px 0px;
+          margin-bottom: 0px;
+        }
+      }
+
+      .pagination {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        width: 260px;
+
+        div {
+          margin: 0 10px;
+        }
+
+        .arrow {
+          position: absolute;
+          &.right {
+            right: 0;
+          }
+          &.left {
+            left: 0;
+            svg {
+              transform: rotate(180deg);
+            }
+          }
+        }
+      }
+
+      .seedContainer {
+        width: fit-content;
+        height: 100%;
+        position: relative;
+
+        max-width: 80%;
+
+        overflow: hidden;
+
+        box-sizing: border-box;
+        padding: 15px 6px;
+
+        border: solid 1px transparent;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        top: -15px;
+
+        .title {
+          font-size: 16px;
+          margin-bottom: 30px;
+        }
+
+        .seedInput {
+          margin-top: 30px;
+          width: 260px;
+          margin-bottom: 40px;
+        }
+
+        .secretNumberContainer {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: 100%;
+          height: 50%;
+          align-items: center;
+          justify-content: center;
+          margin: 10px 0px;
+
+          .numberInput {
+            margin-top: 2px;
+            width: 45%;
+          }
+        }
+
+        .mnuemonicTitle {
+          font-size: 14px;
+          width: 100%;
+          text-align: left;
+        }
+
+        .description {
+          width: 100%;
+          text-align: center;
+          font-size: 12px;
+          margin-top: -12px;
+          margin-bottom: 18px;
+        }
+
+        .containerKey {
+          flex-basis: 0;
+
+          word-break: wrap;
+          word-wrap: wrap;
+          overflow-wrap: break-word;
+          padding: 12px 12px;
+          border: var(--border-color) 1px solid;
+          border-radius: 6px;
+          font-size: 12px;
+
+          text-align: center;
+
+          height: fit-content;
+          width: 260px;
+          box-sizing: border-box;
+
+          &.private {
+            text-align: left;
+            font-size: 11px;
+          }
+        }
+
+        .keyTitle {
+          width: 260px;
+          text-align: left;
+          flex-basis: 0;
+          padding-left: 10px;
+          box-sizing: border-box;
+          margin-top: 20px;
+          margin-bottom: 10px;
+          font-size: 14px;
+        }
+
+        textarea {
+          width: 100%;
+          height: 100%;
+        }
+
+        .numberWrapper {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          height: 225px;
+          width: 225px;
+          max-width: 100%;
+
+          .noWrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .number {
+              text-align: center;
+              border: var(--border-color) 1px solid;
+              border-radius: 6px;
+              padding: 4px 12px;
+              font-size: 14px;
+              margin: 10px 0px;
+            }
+            .alpha {
+              font-size: 12px;
+              margin-right: 6px;
+            }
+          }
+        }
+
+        .wordContainer {
+          position: relative;
+          width: 260px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          .wordWrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            height: 225px;
+            width: 200px;
+            max-width: 100%;
+
+            .wordRow {
+              display: flex;
+              flex-direction: row;
+              justify-content: flex-start;
+              align-items: center;
+              margin: 4px 10px;
+
+              .number {
+                font-size: 12px;
+                margin-right: 6px;
+              }
+
+              .word {
+                text-align: center;
+                border: var(--border-color) 1px solid;
+                border-radius: 6px;
+                padding: 4px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        .buttonContainer {
+          .selectionButton {
+            margin-top: 4px;
+            margin-bottom: 12px;
+            font-size: 14px;
+          }
+
+          .selectionTitle {
+            font-size: 12px;
+          }
+        }
+
+        .strengthContainer {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+
+          .selectionTitle {
+            width: 100%;
+            font-size: 12px;
+            text-align: start;
+          }
+
+          .buttonContainer {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+
+            .strengthButtonLeft {
+              display: flex;
+              justify-content: flex-start;
+
+              margin-top: 4px;
+              margin-bottom: 0px;
+              font-size: 14px;
+              width: 100%;
+              opacity: 0.5;
+              &.selected {
+                opacity: 1;
+              }
+            }
+            .strengthButtonRight {
+              display: flex;
+              justify-content: flex-end;
+
+              margin-top: 4px;
+              margin-bottom: 0px;
+              font-size: 14px;
+              width: 100%;
+              opacity: 0.5;
+              &.selected {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+
+      .input {
+        margin-top: 20px;
+        width: 260px;
+      }
+
+      .warningContainer {
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+
+        max-width: 75%;
+
+        box-sizing: border-box;
+        padding: 0 6px;
+
+        border: solid 1px transparent;
+        border-radius: 10px;
+
+        .warningInfo {
+          width: 100%;
+          font-size: 12px;
+          justify-content: flex-start;
+        }
+      }
+
+      .buttonContainer {
+        .button {
+          margin-top: 12px;
+          margin-bottom: 12px;
+          font-size: 16px;
+        }
+
+        .seedOptionButton {
+          margin-top: 12px;
+          margin-bottom: 12px;
+          font-size: 14px;
+        }
+      }
+
+      .genericButtonContainer {
+        position: relative;
+        margin-bottom: 25px;
+        padding-top: 10px;
+
+        .info {
+          position: absolute;
+          font-family: AvenirNext, Montserrat;
+          font-size: 12px;
+          text-align: center;
+          color: white;
+          top: 0;
+          width: 100%;
+        }
+
+        .button {
+          margin-top: 12px;
+          margin-bottom: 12px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

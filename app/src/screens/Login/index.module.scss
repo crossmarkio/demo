@@ -1,0 +1,150 @@
+.inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-family: AvenirNext, sans-serif;
+  font-size: 19px;
+  color: var(--font-color);
+
+  .background {
+    z-index: 1;
+
+    .absolute {
+      position: absolute;
+      z-index: 1;
+
+      &.top {
+        top: 0;
+      }
+
+      &.bottom {
+        bottom: 0;
+      }
+
+      &.tl {
+        top: -100px;
+        left: 0;
+        opacity: 0.5;
+      }
+
+      &.br {
+        bottom: -100px;
+        right: 0;
+        opacity: 0.5;
+        transform: rotate(180deg);
+      }
+
+      svg {
+        z-index: 1;
+      }
+    }
+  }
+
+  .foreground {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logoContainer {
+      position: absolute;
+
+      top: 100px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      height: fit-content;
+      margin: 20px 0;
+
+      .title,
+      .subtitle {
+        color: #939393;
+        user-select: none;
+      }
+
+      .title {
+        color: var(--theme-font-color);
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        margin-top: 8px;
+        font-size: 24px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        div {
+          margin-left: 15px;
+        }
+      }
+
+      .subtitle {
+        margin-top: 20px;
+        font-size: 18px;
+      }
+    }
+
+    .pageTitle {
+      position: absolute;
+      top: calc(50% - 10px);
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      height: 50%;
+
+      .title {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+      }
+    }
+
+    .forgot {
+      margin-top: 6px;
+      text-align: end;
+      font-size: 10px;
+      margin-bottom: 28px;
+    }
+
+    .noAccount {
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .buttonContainer {
+      position: absolute;
+      bottom: 55px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 16px;
+
+      .button {
+        margin-top: 18px;
+        margin-bottom: 18px;
+      }
+
+      .input {
+        margin-top: 20px;
+        width: 260px;
+      }
+
+      .disable {
+        opacity: 0.25;
+        pointer-events: none;
+        user-select: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+.inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-family: AvenirNext, Montserrat, sans-serif;
+  font-size: 19px;
+  color: var(--font-color);
+
+  .background {
+    z-index: 1;
+
+    .absolute {
+      position: absolute;
+      z-index: 1;
+
+      &.top {
+        top: 0;
+      }
+
+      &.bottom {
+        bottom: 0;
+      }
+
+      &.tl {
+        top: -100px;
+        left: 0;
+        opacity: 0.5;
+      }
+
+      &.br {
+        bottom: -100px;
+        right: 0;
+        opacity: 0.5;
+        transform: rotate(180deg);
+      }
+
+      svg {
+        z-index: 1;
+      }
+    }
+  }
+
+  .foreground {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+      background-color: var(--theme-color);
+      border-radius: 32px;
+      border: solid var(--border-color) 1px;
+
+      position: relative;
+
+      width: 350px;
+      height: 550px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      font-family: AvenirNext, Montserrat;
+      font-size: 16px;
+
+      .back {
+        position: absolute;
+        top: 18px;
+        left: 20px;
+      }
+
+      .input {
+        margin-top: 20px;
+        width: 260px;
+      }
+
+      .logo {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        .pageTitle {
+          margin-top: 8px;
+          font-size: 10px;
+          font-family: Montserrat, AvenirNext;
+        }
+      }
+
+      .containerTitle {
+        width: 260px;
+        text-align: start;
+        font-size: 12px;
+      }
+
+      .title {
+        font-size: 14px;
+      }
+
+      .tick {
+        position: absolute;
+        right: 10px;
+      }
+
+      .buttonContainer {
+        .button {
+          margin-top: 12px;
+          margin-bottom: 12px;
+          font-size: 16px;
+        }
+      }
+
+      .colorContainer {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px 0;
+        margin-top: 16px;
+        width: 260px;
+        height: fit-content;
+
+        .inputTitle {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          font-size: 12px;
+          width: fit-content;
+        }
+
+        .color {
+          width: 24px;
+          height: 24px;
+          margin-top: 24px;
+
+          &.purp {
+            background: #ecd4ff;
+          }
+          &.sky {
+            background: #ceedff;
+          }
+          &.blood {
+            background: #fe7c7c;
+          }
+          &.mint {
+            background: #89ff6b;
+          }
+          &.peach {
+            background: #ffb0b0;
+          }
+          &.smoke {
+            background: #e8e8e8;
+          }
+          &.xumm {
+            background: #89c6ff;
+          }
+          &.gold {
+            background: #ffd089;
+          }
+
+          &.active {
+            border: solid var(--border-color) 1px;
+          }
+        }
+      }
+
+      .genericButtonContainer {
+        position: absolute;
+        bottom: 25px;
+        padding-top: 10px;
+
+        .info {
+          position: absolute;
+          font-family: AvenirNext, Montserrat;
+          font-size: 12px;
+          text-align: center;
+          color: white;
+          top: 0;
+          width: 100%;
+        }
+
+        .button {
+          margin-top: 12px;
+          margin-bottom: 12px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
