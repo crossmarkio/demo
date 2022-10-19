@@ -8,19 +8,19 @@ We have removed the components folder - the components folder for the UI was bui
 
 This project was built with an express API backend + Mongo database. 
 Start backend...
-'''
+```
 cd /api/src
 npx ts-node index.ts
-'''
+```
 
 ---
 
 This project was built with a ReactJS frontend framework and a sprecial webpack builder
 Start frontend...
-'''
+```
 cd /app
 npm run start
-'''
+```
 
 ---
 
